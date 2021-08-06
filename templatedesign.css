@@ -1,0 +1,41 @@
+/* RESET */
+
+*{ font-family: open-sans; }
+
+body {background-color: hsl(233, 47%, 7%);}
+
+/* FONT */
+
+@font-face {
+font-family: open-sans;
+src: url(inter-variablefont_slntwght-webfont.woff);
+}
+
+/*TEXTO DA PÁGINA */
+
+.page {width: 380px; height: 300px;  position: absolute;top: 120px; left: 90px;  background-color:hsl(244, 38%, 16%);}  
+
+h1{color: white; font-size: 20px; font-weight: bold; text-align: center; margin-top: 35px;}
+
+.text {font-size: 12px; color: grey; margin-top: 20px;}
+
+.tx1{position: absolute; float: left; margin-left: 50px; margin-top: 25px;}
+
+.tx2{position: absolute; float: left; margin-left: 160px;}
+
+.tx3{position: absolute; float: left; margin-left: 260px;}
+
+
+/* COMPANIES,TEMPLATES,QUERIES */
+
+
+.companies {font-size: 12px; color: grey; margin-top: 20px; position: absolute; left: 35px; bottom: 55px; text-transform: uppercase;}
+
+.templates {font-size: 12px; color: grey; margin-top: 20px; position: absolute; left: 150px; bottom: 56px; text-transform: uppercase;}
+
+.queries {font-size: 12px; color: grey; margin-top: 20px; position: absolute; left: 260px; bottom: 55px; text-transform: uppercase;}
+
+
+/* IMAGEM */
+
+img {width: 380px; height: 300px; position: absolute; left: 470px; top: 120px;    }
